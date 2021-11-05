@@ -1,94 +1,33 @@
-# Misc
-.envrc
+
+
+# Mac
+build/
+.DS_Store
+__MACOSX
 
 # Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## OS X Finder
-*.DS_Store
-*.orig
-
-## Build raports
-reports/
-
-## Build generated
-build/
-DerivedData/
-buildArchive/
-unsigned-ipa
-
-## Various settings
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-xcuserdata/
-*.pbxproj
-
-## Other
-*.moved-aside
-*.xcuserstate
-
-## Scripts
-Scripts/json_to_string/json
-Scripts/json_to_string/strings
-
-## Obj-C/Swift specific
-*.hmap
+xcuserdata
 *.ipa
 *.dSYM.zip
-*.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
-
-## CCrypto.framework Header Path
-Vodafone/IDTM/CCrypto.framework/Modules/*
-
-## AppCode
-.idea/
-
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-
-# .build/
+*.xcuserstate
 
 # CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+/Pods/Pods.xcodeproj/xcuserdata/
 
-Pods/
+# AT Suite
+/AT/node_modules/
+/AT/package-lock.json
+/AT/errorShots
+/AT/appium.log
+/teamcity/v1.txt
+/teamcity/v2.txt
+/AT/undefined
+/AT/derivedData
+/AT/wdio-results.json
+/AT/wdio-report.html
+/AT/output
 
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-Tuist/Dependencies/Carthage*
-**/Credits.plist
-*.xcworkspace
-*.xcodeproj
-.sourcery.yml
+xxx*
+/Gemfile.lock
 
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
-
-fastlane/README.md
 fastlane/report.xml
-# fastlane/Preview.html
-# fastlane/screenshots
-fastlane/test_output
-
-vendor

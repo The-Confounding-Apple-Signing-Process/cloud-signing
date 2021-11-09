@@ -29,7 +29,7 @@ platform :ios do
   lane :beta_key do
     build_app(
     scheme: "CloudSigning",
-    xcargs: "-allowProvisioningUpdates"
+    xcargs: "-allowProvisioningUpdates -authenticationKeyIssuerID 69a6de8f-7623-47e3-e053-5b8c7c11a4d1 -authenticationKeyID 883JNHN66R -authenticationKeyPath /Users/uday/Work/garrison/Legion/Signing/cloud-signing/PrivateKeys/AuthKey_883JNHN66R.p8"
     )
 
     #upload_to_testflight

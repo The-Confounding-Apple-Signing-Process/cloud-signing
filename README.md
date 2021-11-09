@@ -77,3 +77,5 @@
 - Check Keychain Access has developer certificate but no local profiles are created as its done in cloud.
 - Verify xCode DOES NOT PROMPT to create distribution certificate and it creates one in the cloud of type Distribution Managed.
 - Verify xCode DOES NOT create distribution profiles locally and its all done in the cloud.
+- It works if key was created by xcode first and then used by fastlane or if there was no key and we generate from fastlane itself.
+- Need to check the permission levels for the keys we need to provide to make it work. I used admin
